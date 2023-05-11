@@ -2,12 +2,12 @@
 
 a, b, c = map(int, input().split())
 
-print("")
+print('Soma entre os numeros: {}'.format(a + b + c))
+print('Multiplicacao entre os numeros: {}'.format(a * b * c))
+print('Divisao entre os numeros: {}'.format(a / b / c))
 
 # Escreva um programa que leia um número e apresente a raiz quadrada deste número.
 
 x = int(input("Entre  a number: "))
 
-print("")
-
-
+print('Raiz quadrada do numero digitado: {}'.format(x ** 0.5))
