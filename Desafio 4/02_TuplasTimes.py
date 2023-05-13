@@ -9,3 +9,16 @@ times = ('Palmeiras', 'Santos', 'Flamengo', 'Atlético', 'Internacional',
          'Atlético-PR', 'Botafogo', 'Goias', 'Corinthians', 'Grêmio',
          'Bahia', 'São Paulo', 'Ceará SC', 'Fortaleza', 'Vasco da Gama',
          'Cruzeiro', 'Fluminense', 'Chapecoence', 'CSA', 'Avaí')
+
+# a)
+print(times[0:5])
+
+# b)
+print(times[16:20])
+
+# c)
+print(sorted(times)) 
+
+# d)
+posicao = times.index('Chapecoence') + 1
+print('O time da Chapecoence esta na posicao: {}'.format(posicao))
